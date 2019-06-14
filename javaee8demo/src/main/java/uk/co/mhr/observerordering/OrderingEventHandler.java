@@ -18,7 +18,7 @@ public class OrderingEventHandler {
         System.out.println("1 2 3");
     }
 
-    public void eventHandler(@Observes OrderingEvent event) {
+    public void eventHandler2(@Observes OrderingEvent event) {
         System.out.println("4 5 6");
     }
 }
