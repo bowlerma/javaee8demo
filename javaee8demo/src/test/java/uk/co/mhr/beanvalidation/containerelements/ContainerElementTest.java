@@ -14,8 +14,6 @@ import javax.validation.ValidatorFactory;
 
 import org.junit.jupiter.api.Test;
 
-import uk.co.mhr.uk.co.mhr.beanvalidation.containerelements.ContainerElementExample;
-
 /**
  *
  */

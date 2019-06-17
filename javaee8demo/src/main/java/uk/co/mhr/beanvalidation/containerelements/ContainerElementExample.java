@@ -4,7 +4,7 @@
  * Author   : bowlerm
  * Date     : 14 Jun 2019
  */
-package uk.co.mhr.uk.co.mhr.beanvalidation.containerelements;
+package uk.co.mhr.beanvalidation.containerelements;
 
 import java.util.ArrayList;
 import java.util.List;
