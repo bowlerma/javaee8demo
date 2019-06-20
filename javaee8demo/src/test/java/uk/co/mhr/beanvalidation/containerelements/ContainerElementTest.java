@@ -6,8 +6,9 @@
  */
 package uk.co.mhr.beanvalidation.containerelements;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.util.Set;
 
+import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
@@ -29,6 +30,6 @@ public class ContainerElementTest {
             containerElementExample.numbers.add(i);
         }
 
-        assertTrue(validator.validate(containerElementExample).isEmpty());
-    }
+        Set<ConstraintViolation<ContainerElementExample>> violations = validator.validate(containerElementExample);
+        System.out.println(violations);    }
 }
